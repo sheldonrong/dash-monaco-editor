@@ -7,6 +7,11 @@ Get started with:
 2. Run `python usage.py`
 3. Visit http://localhost:8050 in your web browser
 
+## Install via conda
+```
+conda install -c sheldon.rong dash-monaco-editor
+```
+
 ## Contributing
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md)
