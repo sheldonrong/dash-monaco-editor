@@ -1,0 +1,25 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Jun  7 09:50:23 2020
+# ------------------------------------------------
+
+package:
+    name: dash-monaco-editor
+    version: 0.20.0
+
+source:
+    path: ./
+
+build:
+    number: 0
+    script: python setup.py install
+
+requirements:
+    run:
+        - dash >=1.9.0
+        - python
+
+about:
+    description: 'dash-monaco-editor is a wrapper of Microsoft Monaco Editor for Plotly Dash'
+    license: MIT
+    summary: Monaco Editor for Plotly Dash
